@@ -131,5 +131,5 @@ userSchema.statics.findByCredentials = async (email, password) => {
 };
 
 // * Creation of model
-const users = mongoose.model('Users', userSchema);
+const users = mongoose.model('TaskUser', userSchema);
 module.exports = users;
